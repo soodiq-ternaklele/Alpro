@@ -12,12 +12,12 @@ Program dibuat secara interaktif berbasis Command Line Interface (CLI).
 - Syahlevi Miraz Nugraha (202410370110425)
 
 ## Teknologi yang Digunakan
-- Bahasa Pemrograman: Python 3
-- Library bawaan Python:
-  - heapq
-  - os
-  - collections
-  - sys
+- Bahasa Pemrograman: Python
+- Library bawaan:
+    - heapq
+    - os
+    - collections
+    - sys
 
 ## Fitur Program
 
@@ -37,34 +37,36 @@ Fitur yang diimplementasikan:
 - Search (mencari node dan menampilkan jalur pencarian)
 - Delete (menghapus node dari BST)
 - Traversal tree:
-  - InOrder
-  - PreOrder
-  - PostOrder
+    - InOrder
+    - PreOrder
+    - PostOrder
 - Menampilkan struktur BST secara visual
 - Menyediakan contoh BST otomatis
 
 ## Cara Menjalankan Program
+Setelah program dijalankan, pengguna akan diarahkan ke **menu utama**.  
+Langkah penggunaan program adalah sebagai berikut:
 
-### 1. Pastikan Python Terinstal
-Cek versi Python dengan perintah:
-```
-python --version
-```
-### 2. Simpan File Program
-Simpan source code dengan nama:
-```
-project_uas_algoritma.py
-```
+1. Pilih menu **Huffman Coding – Kompresi Teks** untuk melakukan kompresi dan dekompresi teks.
+    - Masukkan teks yang ingin dikompresi.
+    - Program akan menampilkan frekuensi karakter, kode Huffman, teks terenkripsi, rasio kompresi, dan hasil dekompresi.
 
-### 3. Jalankan Program
-Jalankan program dengan perintah:
-```
-python project_uas_algoritma.py
-```
-atau
-```
-python3 project_uas_algoritma.py
-```
+
+2. Pilih menu **Binary Search Tree – Operasi dan Traversal** untuk mengelola data BST.
+    - Tambahkan node ke dalam BST.
+    - Cari node dan lihat jalur pencariannya.
+    - Hapus node dari BST.
+    - Tampilkan traversal (InOrder, PreOrder, PostOrder).
+    - Tampilkan struktur BST dalam bentuk pohon.
+
+
+3. Pilih menu **Tentang Program** untuk melihat informasi singkat mengenai tujuan dan fitur program.
+
+
+4. Pilih menu **Keluar** untuk mengakhiri program.
+
+Seluruh interaksi dilakukan melalui input angka dan teks sesuai instruksi yang ditampilkan pada layar.
+
 
 ## Menu Utama Program
 Saat program dijalankan, akan muncul menu utama sebagai berikut:
@@ -93,7 +95,5 @@ Program akan menampilkan:
 - Struktur BST dalam bentuk pohon
 
 ## Kesimpulan
-Program ini berhasil mengimplementasikan algoritma Huffman Coding dan struktur data Binary Search Tree secara interaktif. Program membantu memahami konsep algoritma dan struktur data secara praktis menggunakan bahasa Python.
+Program ini berhasil mengimplementasikan algoritma Huffman Coding dan struktur data Binary Search Tree secara interaktif. Program membantu memahami konsep algoritma dan struktur data secara praktis.
 
-## Lisensi
-Proyek ini dibuat untuk keperluan akademik dan pembelajaran.
