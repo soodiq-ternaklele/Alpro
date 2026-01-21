@@ -44,7 +44,7 @@ Fitur yang diimplementasikan:
 - Menyediakan contoh BST otomatis
 
 ## Cara Menjalankan Program
-Setelah program dijalankan, pengguna akan diarahkan ke **menu utama**.  
+Tekan tombol run, setelah program dijalankan, pengguna akan diarahkan ke **menu utama**.  
 Langkah penggunaan program adalah sebagai berikut:
 
 1. Pilih menu **Huffman Coding – Kompresi Teks** untuk melakukan kompresi dan dekompresi teks.
